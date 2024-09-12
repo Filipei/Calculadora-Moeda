@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Calculadora</title>
+
+</head>
+
+<body class="geral">
+    <div class="container">
+        <div class="filho">
+            <div class="textofilho">
+                <p>Escolha qual moeda Deseja converter</p>
+            </div>
+            <div class="opcoes">
+                <div class="valor">
+                    <p id="numusua">Valor</p>
+                    <div class="valorfilho">
+                        <input class="valorinput" type="number" placeholder="0,00" id="input">
+                    </div>
+
+                </div>
+                <div class="moeda">
+                    <p>Moeda</p>
+                    <div class="divselemoeda">
+                        <select class="selemoeda" name="moeda1" id="moedas">
+                            <option id="calcueuro" value="euro1">Euro</option>
+                            <option id="calculibra" value="libras1">Libras</option>
+                            <option id="calcudola" value="dolar1">Dólar</option>
+    
+                        </select>
+                    </div>
+
+
+
+                </div>
+                
+                <div class="divbutao">
+                    <button class="butao" onclick="calculo()">Converta para Reais</button>
+    
+                </div>
+                <div class="resultado">
+                    <p id="resultadojs">Resultado</p>
+                </div>
+    
+
+            </div>
+
+            </div>
+            
+
+
+
+
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+.geral{
+    background-color: #080815;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+    
+.container{
+    background-color: #0E0F25;
+    width: 450px;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.filho{
+    display:block ;
+    color: #b2b8de;
+    font-size: 15px;
+    
+}
+.opcoes{
+    margin-top: 20px;
+}
+.valor{
+    margin-bottom: 10px;
+    margin-left: 68px;
+
+}
+.valor input{
+    width: 300px;
+    background-color: #080815;
+    color: white;
+    height: 25px;
+}
+.valorfilho{
+    margin-top: -14px;
+}
+.moeda{
+    margin-left: 68px;
+}
+.textofilho{
+    display: flex;
+   justify-content: center; 
+   margin-top: 70px;
+}
+.butao{
+    margin-top: 40px;
+    background-color: #141534;
+    color: #b2b8de;
+    width: 300px;
+    height: 35px;
+    border-radius : 10px;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+.butao:hover{
+    background-color: #2f34ab; 
+            transform: scale(1.1); 
+}
+.divbutao{
+    display: flex;
+    justify-content: center;
+    
+}
+.selemoeda{
+    width: 308px;
+    background-color: #080815;
+    color: white;
+    height: 25px;
+}
+.divselemoeda{
+    margin-top: -15px;
+
+}
+.resultado{
+    background-color: #141534;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-radius: 20px;
+
+}
+
+
+
